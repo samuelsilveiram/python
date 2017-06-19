@@ -53,39 +53,103 @@
 
 ## -------------------------------------------
 
-l = ['apple','orange','strawberry','banana']
-print(l)
+# l = ['apple','orange','strawberry','banana']
+# print(l)
 
-l.insert(3, 'melon')
-print(l)
+# l.insert(3, 'melon')
+# print(l)
 
-del l[0]
-print(l)
+# del l[0]
+# print(l)
 
-print(l.pop())
-print(l.pop(0))
-print(l)
+# print(l.pop())
+# print(l.pop(0))
+# print(l)
 
-l[0] = 'apple'
-print(l)
+# l[0] = 'apple'
+# print(l)
 
-l.extend(['pineapple', 'tomato'])
-print(l)
+# l.extend(['pineapple', 'tomato'])
+# print(l)
 
-l.remove('apple')
-print(l)
+# l.remove('apple')
+# print(l)
 
-print(len(l))
+# print(len(l))
 
-for fruit in l:
-    print(fruit)
+# for fruit in l:
+#     print(fruit)
     
 ## -------------------------------------------
 
+# l = ['apple','orange','strawberry','banana', 'watermelon', 'mixirica']
+# print(l)
+
+# print(l[0])
+
+# print(l[3])
+
+# print(l[-1])
+
+# print(l[2:4])
+
+# print([10,20,30,40][::-1])
+
+## -------------------------------------------
+
+# l = ['apple','orange','strawberry','banana', 'watermelon', 'mixirica']
+# print(l)
+
+# print('apple' in l)
+
+# print('basketball' in l)
+
+## -------------------------------------------
+
+# l = [25, 3, 14] + [5, 4] + [101, 2]
+# print(l)
+
+# l = ['apple','orange'] * 3
+# print(l)
+
+## -------------------------------------------
+
+# l = ['apple','orange','strawberry','banana', 'watermelon', 'mixirica']
+# l.reverse()
+# print(l)
+# l.reverse()
+# print(l)
+
+## -------------------------------------------
+
+# fruit = ["orange", "apple", "strawberry", "banana", "apricot"]
+# print(fruit)
+# fruit.sort()
+# print(fruit)
+# fruit.sort(reverse=True)
+# print(fruit)
+
+## -------------------------------------------
+
+l = [10,5,25,100,250,1,8]
+print("L: {}".format(l))
+
+l2 = l
+print("L2: {}".format(l2))
+l.append("BOOM!")
+
+l3 = l[:]
+print("L3: {}".format(l3))
+l3.append(9876)
+
+print("L: {}".format(l))
+print("L2: {}".format(l2))
+print("L3: {}".format(l3))
 
 ## -------------------------------------------
 
 
+## -------------------------------------------
 
 
 
